@@ -179,6 +179,7 @@
         <span>🔥</span>
         <span id="streak-num">1</span>
       </div>
+      <button class="sos-btn" onclick="App.sos.open()">SOS</button>
       <button class="settings-btn" onclick="App.ui.openSettings()">⚙️</button>
     </div>
   </header>
@@ -247,6 +248,16 @@
       </div>
 
       <!-- Tip of the day -->
+      <div class="home-cards" style="padding-top:0">
+        <div class="home-card" style="background:#FFF0F3;grid-column:span 2" onclick="StressTracker.open()">
+          <div class="hc-top">
+            <div class="hc-icon">📈</div>
+            <div class="hc-arrow">›</div>
+          </div>
+          <div class="hc-title">Tracker stress universitario</div>
+          <div class="hc-sub">Registra il tuo livello di stress e osserva il pattern</div>
+        </div>
+      </div>
       <div class="tip-card" id="tip-card">
         <div class="tip-label">💡 Lo sapevi?</div>
         <div class="tip-text" id="tip-text"></div>
